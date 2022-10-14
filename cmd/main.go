@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"openapi-go-sdk/pkg/components/sign"
+	"github.com/gengqingyang/openapi-go-sdk/pkg/components/sign"
 )
 
 func main(){
