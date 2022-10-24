@@ -7,7 +7,7 @@
  * @Description: OpenApi签名算法工具
  */
 
-package sign
+package generate_sign_v1
 
 import (
 	"bytes"
@@ -18,12 +18,12 @@ import (
 )
 
 /**
- * @description: v1版签名算法
- * @param {map[string]string} params
- * @param {string} secret
+ * @description: 生成 openapi v1版本签名
+ * @param {map[string]string} params 请求参数
+ * @param {string} secret appid 对应密钥
  * @return {*}
  */
-func GenSignV1(params map[string]string, secret string) string {
+func GenSignature(params map[string]string, secret string) string {
 	var keys []string
 	for key, _ := range params {
 		keys = append(keys, key)
