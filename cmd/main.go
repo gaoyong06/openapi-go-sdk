@@ -1,8 +1,15 @@
+/*
+ * @Author: gengqingyang gengqingyang@onething.net
+ * @Date: 2022-10-24 14:26:07
+ * @LastEditTime: 2022-10-26 10:55:56
+ * @Description:
+ */
 package main
 
 import (
 	"fmt"
-	"github.com/gengqingyang/openapi-go-sdk/pkg/components/generate_sign_v2"
+
+	"github.com/gaoyong06/openapi-go-sdk/pkg/components/generate_sign_v2"
 )
 
 func main() {
