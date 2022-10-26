@@ -1,4 +1,4 @@
-module github.com/gengqingyang/openapi-go-sdk
+module github.com/gaoyong06/openapi-go-sdk
 
 go 1.16
 
